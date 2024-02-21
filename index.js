@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const { DbConnect } = require ('./connection')
-const User = require('./model/user')
+const User = require('./user')
 
 
 const app = express();
